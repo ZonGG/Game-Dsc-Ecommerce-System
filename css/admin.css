@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F4F3EE;
+    max-width: auto;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    font-family: sans-serif;
+    }
+
+div.header{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 50px solid #1D3461;
+    box-shadow: 3px 3px 5px grey;
+    position: relative;
+      clear:both;
+        }
+
+        table {
+        border-collapse: collapse;
+        width: 100%;
+        color: #1d3461;
+        font-family: monospace;
+        font-size: 20px;
+        text-align: center;
+        }
+
+        th {
+        background-color: #1D3461;
+        color: white;
+        }
+
+        tr:nth-child(even) {background-color: lightgrey;}
+
+
+  #side a {
+  position: fixed;
+  left: -90px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 150px;
+  z-index:3;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#side a:hover {
+  left: 0;
+}
+
+#Dashboard{
+  top: 8%;
+  background-color: #247BA0;
+}
+
+#UsersAccount {
+  top: 13%;
+  background-color: #2196F3;
+}
+
+#Products {
+  top: 18%;
+  background-color: #FB3640;
+}
+
+#Logout{
+  top: 23%;
+  background-color: #605F5E;}

@@ -1,0 +1,142 @@
+body{
+    background-color: #F4F3EE;
+    max-width: auto;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    font-family: sans-serif;
+    }
+
+    div.header{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 50px solid #1D3461;
+        box-shadow: 3px 3px 5px grey;
+        position: relative;
+          clear:both;
+            }
+
+ul.top{
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1D3461;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    box-shadow: 3px 3px 5px grey;
+      }
+
+li{
+    float: left;
+        }
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+        }
+li a:hover:not(.active){
+    background-color:black;
+    transition-duration: 0.4s;
+        }
+
+.active{
+        background-color: #247BA0;
+        }
+
+table {
+border-collapse: collapse;
+width: 100%;
+color: #1d3461;
+font-family: monospace;
+font-size: 20px;
+text-align: center;
+}
+
+th {
+background-color: #1D3461;
+color: white;
+}
+
+tr:nth-child(even) {background-color: lightgrey;}
+
+
+#side a {
+left: -90px;
+transition: 0.3s;
+padding: 10px;
+width: 150px;
+text-decoration: none;
+font-size: 15px;
+font-weight: bolder;
+color: white;
+z-index: 9999;
+border-radius: 0 5px 5px 0;
+}
+
+#side a:hover {
+left: 0;
+z-index: 9999;
+}
+
+#Dashboard{
+top: 8%;
+z-index: 9999;
+background-color: #247BA0;
+}
+
+#UsersAccount {
+top: 13%;
+z-index: 9999;
+background-color: #2196F3;
+}
+
+#Products {
+top: 18%;
+z-index: 9999;
+background-color: #FB3640;
+}
+
+#Logout{
+top: 23%;
+z-index: 9999;
+background-color: #605F5E;
+}
+
+
+a{text-decoration: none;}
+a:hover{color:grey;
+transition: 0.3s;}
+
+.delete{color: red;}
+
+
+.back{font-size: 20px;
+      font-weight: bold;}
+
+.add {
+  font-size:20px;
+  font-weight: bold;
+  right:0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.footer{
+    bottom: 0;
+    float:bottom;
+    background-color: #1D3461;
+    line-height: 48px;
+    color: white;
+    text-align: center;
+}
